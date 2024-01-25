@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz-Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section>
+      <span id="qn"></span>
+      <h3 id="question"></h3>
+      <div id="answer">
+        <button class="yes" onclick="checkAnswer(true)">Yes</button>
+        <button class="no" onclick="checkAnswer(false)">No</button>
+      </div>
+      <h5 id="result"></h5>
+      <h3 id="resu"></h3>
+      <button id="reset" onclick="reset()">Reset Quiz</button>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
